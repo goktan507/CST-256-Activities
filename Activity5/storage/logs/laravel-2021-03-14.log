@@ -1,0 +1,26 @@
+[2021-03-14 21:35:41] local.INFO: Entering MyTestMiddleware in handle()  
+[2021-03-14 21:35:41] local.INFO: Could not get Username from cache (data is older than 1 minute)  
+[2021-03-14 21:35:41] local.INFO: Entering MySecurityMiddleware in handle() at path: loggingservice  
+[2021-03-14 21:35:41] local.INFO: MySecurityMiddleware in handle()... Neeeds Security  
+[2021-03-14 21:35:41] local.INFO: This is the session in middleware:   
+[2021-03-14 21:35:41] local.INFO: Leaving MySecurityMiddleware in handle() doing a redirect back to login  
+[2021-03-14 21:35:41] local.INFO: Entering MyTestMiddleware in handle()  
+[2021-03-14 21:35:41] local.INFO: Could not get Username from cache (data is older than 1 minute)  
+[2021-03-14 21:35:41] local.INFO: Entering MySecurityMiddleware in handle() at path: login  
+[2021-03-14 21:35:41] local.INFO: MySecurityMiddleware in handle()... No Security Required  
+[2021-03-14 21:35:41] local.INFO: This is the session in middleware:   
+[2021-03-14 21:35:48] local.INFO: Entering MyTestMiddleware in handle()  
+[2021-03-14 21:35:48] local.INFO: In not null...test  
+[2021-03-14 21:35:48] local.INFO: Caching first time username for : test  
+[2021-03-14 21:35:48] local.INFO: Entering MySecurityMiddleware in handle() at path: doLogin  
+[2021-03-14 21:35:48] local.INFO: MySecurityMiddleware in handle()... No Security Required  
+[2021-03-14 21:35:48] local.INFO: This is the session in middleware:   
+[2021-03-14 21:35:48] local.INFO: Entering LoginController Index()  
+[2021-03-14 21:35:48] local.INFO: Parameters are :  {"username":"test","password":"test"} 
+[2021-03-14 21:35:48] local.INFO: Exit LoginController::index() login passing  
+[2021-03-14 21:35:51] local.INFO: Entering MyTestMiddleware in handle()  
+[2021-03-14 21:35:51] local.INFO: Could not get Username from cache (data is older than 1 minute)  
+[2021-03-14 21:35:51] local.INFO: Entering MySecurityMiddleware in handle() at path: loggingservice  
+[2021-03-14 21:35:51] local.INFO: MySecurityMiddleware in handle()... Neeeds Security  
+[2021-03-14 21:35:51] local.INFO: This is the session in middleware: enabled  
+[2021-03-14 21:35:51] local.INFO: Entering TestLoggingController@index()  
